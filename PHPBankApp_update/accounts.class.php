@@ -8,8 +8,8 @@
 			$this->accno=$accno;
 			$this->acbal=$acbal;
 		}
-		abstract protected function getAccno($accno);
+		abstract protected function getAccno();
 		
-		abstract protected function getAccbal($acbal);
+		abstract protected function getAccbal();
 	}
 ?>
